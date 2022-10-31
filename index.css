@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500;700&display=swap');
+
+body {
+    width: 100vw;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+#contenedor {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 7px;
+    width: 250px;
+    height: auto;
+    margin: auto;
+    padding: 22px;
+}
+
+.img_principal {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+}
+
+#contenedor_descripcion h2 {
+    font-size: 18px;
+}
+
+#contenedor_descripcion p {
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+#contenedor_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor_eth {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+
+#contenedor_eth svg {
+    color: hsl(178, 100%, 50%);
+}
+
+#contenedor_eth span,
+#contenedor_tiempo span {
+    margin-left: 5px;
+}
+
+#contenedor_tiempo {
+    display: flex;
+}
+
+hr {
+    background-color: hsl(215, 51%, 70%);
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+}
+
+#footer img {
+    width: 30px;
+    height: 30px;
+}
+
+#footer span {
+    font-size: 15px;
+    padding-left: 8px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+#footer span strong {
+    color: white;
+}
